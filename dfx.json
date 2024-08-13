@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "Farm_link_backend": {
+      "main": "src/Farm_link_backend/main.mo",
+      "type": "motoko"
+    },
+    "Farm_link_backend": {
+      "dependencies": [
+        "Farm_link_backend"
+      ],
+      "source": [
+        "src/Farm_link_backend/dist"
+      ],
+      "type": "assets",
+      "workspace": "Farm_link_backend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
